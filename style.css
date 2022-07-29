@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./assets/sofa-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+}
+.container {
+  padding: 35px;
+}
+.header,
+.list,
+.call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-item {
+  list-style: none;
+  padding: 0 30px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+i {
+  font-size: 40px;
+}
+.call-number {
+  padding: 20px;
+}
+.call {
+  margin-left: 30px;
+}
+
+.main > h1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+.learn-btn {
+  background: transparent;
+  border: 2px solid #ffffff;
+  padding: 20px 40px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.hero {
+  position: relative;
+  padding: 0px 50px;
+}
+.puzzle,
+.idea {
+  position: absolute;
+  left: 70%;
+  width: 250px;
+  background: rgba(200, 243, 198, 0.4);
+  padding: 20px;
+  top: 50px;
+}
+.puzzle,
+.idea > p {
+  color: #ffffff;
+}
+.idea {
+  position: absolute;
+  left: 50%;
+  top: 300px;
+}
+.main {
+  position: absolute;
+  top: 100px;
+}
+.white-img {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 40px;
+  width: 80px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+/* .line {
+  border: 2px solid #ffffff;
+  width: 150px;
+  position: absolute;
+  left: 70px;
+}
+.circle {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+} */
+.call-number > h5 {
+  color: #ffffff;
+  font-size: 18px;
+}
