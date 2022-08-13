@@ -13,6 +13,7 @@ body {
 .container {
   padding: 35px;
 }
+
 .header,
 .list,
 .call {
@@ -87,20 +88,89 @@ i {
   width: 80px;
   margin-bottom: 5px;
   text-align: center;
+  background-image: url(/assets/Interior\ Design\ landing\ page.svg);
+  background-position: -10px 92px;
 }
-/* .line {
-  border: 2px solid #ffffff;
-  width: 150px;
-  position: absolute;
-  left: 70px;
-}
-.circle {
+
+.white-img1{
   background-color: #ffffff;
-  border-radius: 10px;
-  width: 20px;
-  height: 20px;
-} */
+  border-radius: 30px;
+  height: 45px;
+  width: 80px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-image: url(/assets/Interior\ Design\ landing\ page.svg);
+  background-position: 177px 88px;
+}
+
+.call-img{
+  border-radius: 30px;
+  height: 45px;
+  width: 80px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-image: url(/assets/Interior\ Design\ landing\ page.svg);
+  background-position: 75px 92px;
+}
+
 .call-number > h5 {
   color: #ffffff;
   font-size: 18px;
+}
+
+@media screen and (max-width:950px){
+  body{
+    background-size: cover;
+  }
+
+  .list-item{
+    display: none;
+  }
+  
+  .logo img{
+    width: 80px;
+  }
+
+  .call-img{
+    display: none;
+  }
+
+  .call-number h5{
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .hero {
+    padding: 0px 20px;
+  }
+
+  .main > h1 {
+    font-size: 30px;
+  }
+
+  .main{
+    text-align: center;
+    position: static;
+    margin-top: 20px;
+  }
+
+ 
+.idea {
+  left: 30%;
+  top: 420px;
+}
+
+.puzzle {
+  left: 0%;
+  top: 250px;
+}
+
+
+
+  
+
+
 }
